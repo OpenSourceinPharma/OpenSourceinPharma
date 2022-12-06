@@ -1,0 +1,179 @@
+---
+pagetitle: "Open Source in Pharma"
+page-layout: custom
+section-divs: false
+toc: false
+css: index.css
+editor: source
+description: | 
+  Open Source in Pharma is a registered non-profit aiming to support the use of open source languages in Pharma.
+image: /images/hero_right.png
+---
+
+::: {.hero-banner}
+
+::: {.hero-image .hero-image-left}
+![](images/hero_left.png){fig-alt="Stack of three printed articles with text, code, and graphics."}
+:::
+
+::: {.content-block}
+
+# Open source in Pharma
+
+### Open Source in Pharma is a registered non-profit aiming to support the use of open source languages in Pharma.
+
+Our mission:
+
+- Promote the use of open source, and collaboration between companies 
+- Put on fantastic, vendor free, community events like R/Pharma
+- Encourage seminars, dicussion and facilitate collaboration between companies
+
+::: {.hero-buttons}
+[About OS in Pharma](docs/governance/){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
+[Our blog](docs/guide/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
+::: 
+
+:::
+
+::: {.hero-image .hero-image-right}
+![](images/hero_right.png){fig-alt="Stack of three printed articles with text, code, and graphics."}
+:::
+
+:::
+
+
+::: {.hello-quarto}
+::: {.content-block}
+
+::: {.hello-quarto-banner}
+# Our impact 
+<ul class="nav nav-pills" id="hello-quarto-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="conference-tab" data-bs-toggle="tab" data-bs-target="#conference" type="button" role="tab" aria-controls="conference" aria-selected="true">Conferences</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="task-tab" data-bs-toggle="tab" data-bs-target="#task" type="button" role="tab" aria-controls="task" aria-selected="false">Task forces</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="education-tab" data-bs-toggle="tab" data-bs-target="#education" type="button" role="tab" aria-controls="education" aria-selected="false">Education</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="github-tab" data-bs-toggle="tab" data-bs-target="#github" type="button" role="tab" aria-controls="github" aria-selected="false">Github</button>
+  </li>
+</ul>
+:::
+
+<div class="tab-content" id="hello-quarto-tabcontent">
+
+<div class="tab-pane fade  show active" id="conference" role="tabpanel" aria-labelledby="conference-tab">
+
+::: {.grid}
+::: {.g-col-lg-6 .g-col-12}
+## R/Pharma
+
+R/Pharma conference is a relatively small, scientifically & industry oriented, collegial event focused on the use of R in the development of pharmaceuticals.
+
+The first conference took place in 2018, as an in-person event hosted by Harvard. During Covid-19, the 
+conference moved to be online, and grew in participation to more than 1,500 data scientists from the 
+pharma world with a passion for using R.
+
+The conference is free to attend, and all hosting costs are met by contributions by 
+Pharma companies.
+
+[Conference website](https://rinpharma.com/)
+:::
+
+::: {.g-col-lg-6 .g-col-12}
+![](images/rinpharma-square.png){fig-alt="R/Pharma on pill background." fig-align="center" layout-valign="center"}
+:::
+:::
+
+</div>
+
+<div class="tab-pane fade" id="task" role="tabpanel" aria-labelledby="task-tab">
+
+::: {.grid}
+::: {.g-col-lg-12 .g-col-12}
+
+## Task forces
+
+Two task forces have been started by Open Source in Pharma to support 
+the R/Pharma conference community.
+
+* [Shiny for submissions](https://learn.rinpharma.com/shiny4submissions.html)
+* [Pharma R admin](https://learn.rinpharma.com/pharmaradmin.html)
+
+:::
+:::
+
+</div>
+
+<div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">
+
+::: {.grid}
+::: {.g-col-lg-6 .g-col-12}
+## Certificates
+
+OS in Pharma supports the release of _Credly_ certifications to individuals that attend a conference workshop.
+
+## Coursera
+
+We have supported Roche / Genentech release the first online course specifically targeted at bridging the world of data science, with the world of data science for regulatory reporting. 
+
+This has led to the Genentech course on Coursera called 'Making data science work for clinical reporting'. 
+:::
+
+::: {.g-col-lg-6 .g-col-12}
+![](images/coursera.png){fig-alt="Coursera." fig-align="center"}
+:::
+:::
+
+</div>
+
+<div class="tab-pane fade" id="github" role="tabpanel" aria-labelledby="github-tab">
+
+::: {.grid}
+::: {.g-col-lg-12 .g-col-12}
+## Github org
+
+Open source in Pharma provides governance over three Github Organisations.
+
+* [github.com/openpharma](https://github.com/openpharma) - A generic home for projects that are looking for 
+a Github organisation that is not affaliated to a specific company, and not tied to a specific organisation like 
+PhUSE, ROpenSci or the R Consortium.
+* [github.com/rinpharma](https://github.com/rinpharma) - For material relating to the R/Pharma conference, including the conference
+website and presentation/workshop archive.
+* [github.com/opensourceinpharma](https://github.com/opensourceinpharma) - For material relating to the OS in Pharma non-profit, 
+including this website.
+
+:::
+
+
+:::
+
+</div>
+
+</div>
+
+
+
+::: {.grid}
+
+
+:::
+:::
+:::
+
+
+
+
+::: {.get-started .alt-background}
+::: {.content-block}
+
+### Do you want to get connected and involved?
+
+[Connect with us](https://forms.gle/8ftqG6pwJN22prA9A){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button"}
+
+:::
+:::
+

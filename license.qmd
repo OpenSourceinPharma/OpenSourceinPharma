@@ -1,0 +1,10 @@
+---
+title: "Open Source License"
+---
+
+The theme of this website is based on the permisively licensed Quarto website <https://github.com/quarto-dev/>. 
+
+Any additional content beyond the initial forked website theme unique to Open Source in Pharma is licenced under an MIT licence, 
+copyrighted by Open Source in Pharma.
+
+
