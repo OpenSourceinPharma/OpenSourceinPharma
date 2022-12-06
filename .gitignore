@@ -1,5 +1,7 @@
 site_libs/
-docs/
+/_site/
 /.quarto/
 
 /.luarc.json
+
+.vscode/settings.json

@@ -1,0 +1,24 @@
+---
+title: We exist!
+subtitle: On the 17th of September we filed our articles of incorporation
+description: |
+  A quick update on our path to non-profit status.
+categories:
+  - status-update
+  - wins
+author: Michael Blanks
+date: 2021-09-17
+image: we-exist.png
+image-alt: "The header from our articles of incoporation"
+---
+
+![](we-exist.png){.preview-image fig-align="center" fig-alt="The header from our articles of incoporation"}
+
+::: {.callout-note icon=false}
+
+## It's day 1 for OS in Pharma!
+
+Just a quick update today, to note we have filed our articles of incoporation with the Secretary of State of the State of North 
+Carolina!
+
+:::

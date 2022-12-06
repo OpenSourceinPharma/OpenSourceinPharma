@@ -1,0 +1,23 @@
+---
+title: We are officially NP
+subtitle: The IRS has now determined we are a 501(c)(3)
+description: |
+  A quick update on our path to non-profit status.
+categories:
+  - status-update
+  - wins
+author: Michael Blanks
+date: 2021-09-17
+image: np.png
+image-alt: "The header from our articles of incoporation"
+---
+
+![](np.png){.preview-image fig-align="center" fig-alt="The header from our articles of incoporation"}
+
+::: {.callout-note icon=false}
+
+## We are now a non-profit with the tools needed to support our efforts
+
+Just a quick update today, that we recieved the reply from the IRS, meaning we are now able to take donations.
+
+:::

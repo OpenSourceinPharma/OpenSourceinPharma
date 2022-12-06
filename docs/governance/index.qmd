@@ -1,0 +1,59 @@
+---
+title: "Open Source in Pharma Governance"
+listing: 
+  - id: listing-directors
+    contents: listings/directors.yml
+    type: table
+    field-links: 
+    - name
+    field-display-names: 
+      name: Name
+      role: Directorship
+      affiliation: Affiliation
+  - id: listing-documents
+    contents: listings/documents.yml
+    type: table
+    field-links: 
+    - name
+    field-display-names: 
+      name: Document
+      description: Description
+---
+
+{{< include _listing-preamble.qmd >}}
+
+Incoporated as a coporation in 2021 and 
+recognised as a registered non-profit by North Coralina in 2022, 
+`Open Source in Pharma` was originally 
+formed to govern and support the R/Pharma conference. This has expanded to the 
+R/Pharma task forces, and supporting efforts like the creation of Coursera 
+content. 
+
+::: {.callout-note icon=false}
+## Mission statement
+
+Foster a global community centred around adoption of open source technology in Pharma by being an inclusive software foundation devoted to an open philosophy, participatory community driven development, and connecting practitioners into a cohesive community.
+
+**Open Source in Pharma Goals**
+
+The following aspirational goals support the overall mission. As a foundation we seek to:
+
+* champion the use of open-source and community participation through the development of an open education curriculum;
+* remain vendor neutral;
+* continue to foster the community through conferences, meetups and provide a collaborative platform for discussion ;
+be a welcoming and inclusive worldwide organization at all levels;
+* celebrate excellence, openness and service within the Pharma community.
+
+:::
+
+### Board of Directors {.unlisted}
+
+::: {#listing-directors}
+:::
+
+### Key Documents {.unlisted}
+
+::: {#listing-documents}
+:::
+
+{{< include _listing-footer.qmd >}}
