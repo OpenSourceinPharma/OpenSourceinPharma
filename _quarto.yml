@@ -100,6 +100,7 @@ filters:
   - filters/tools-tabset.lua
 
 
-freeze: true
+execute:
+  freeze: auto
 
 editor: visual
