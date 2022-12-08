@@ -16,45 +16,8 @@
 <height>42</height>
 <width>144</width>
 </image>
-<generator>quarto-1.2.233</generator>
-<lastBuildDate>Thu, 16 Sep 2021 22:00:00 GMT</lastBuildDate>
-<item>
-  <title>We are officially NP</title>
-  <dc:creator>Michael Blanks</dc:creator>
-  <link>https://opensourceinpharma.com/docs/blog/posts/2022-06-24-we-are-np/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://opensourceinpharma.com/docs/blog/posts/2022-06-24-we-are-np/np.png" class="preview-image img-fluid figure-img" alt="The header from our articles of incoporation"></p>
-</figure>
-</div>
-<div class="callout-note callout callout-style-default no-icon callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-We are now a non-profit with the tools needed to support our efforts
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Just a quick update today, that we recieved the reply from the IRS, meaning we are now able to take donations.</p>
-</div>
-</div>
-
-
-
- ]]></description>
-  <category>status-update</category>
-  <category>wins</category>
-  <guid>https://opensourceinpharma.com/docs/blog/posts/2022-06-24-we-are-np/index.html</guid>
-  <pubDate>Thu, 16 Sep 2021 22:00:00 GMT</pubDate>
-  <media:content url="https://opensourceinpharma.com/docs/blog/posts/2022-06-24-we-are-np/np.png" medium="image" type="image/png" height="95" width="144"/>
-</item>
+<generator>quarto-1.2.269</generator>
+<lastBuildDate>Fri, 17 Sep 2021 00:00:00 GMT</lastBuildDate>
 <item>
   <title>We exist!</title>
   <dc:creator>Michael Blanks</dc:creator>
@@ -89,8 +52,45 @@ It’s day 1 for OS in Pharma!
   <category>status-update</category>
   <category>wins</category>
   <guid>https://opensourceinpharma.com/docs/blog/posts/2021-09-17-we-exist/index.html</guid>
-  <pubDate>Thu, 16 Sep 2021 22:00:00 GMT</pubDate>
+  <pubDate>Fri, 17 Sep 2021 00:00:00 GMT</pubDate>
   <media:content url="https://opensourceinpharma.com/docs/blog/posts/2021-09-17-we-exist/we-exist.png" medium="image" type="image/png" height="93" width="144"/>
+</item>
+<item>
+  <title>We are officially NP</title>
+  <dc:creator>Michael Blanks</dc:creator>
+  <link>https://opensourceinpharma.com/docs/blog/posts/2022-06-24-we-are-np/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://opensourceinpharma.com/docs/blog/posts/2022-06-24-we-are-np/np.png" class="preview-image img-fluid figure-img" alt="The header from our articles of incoporation"></p>
+</figure>
+</div>
+<div class="callout-note callout callout-style-default no-icon callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+We are now a non-profit with the tools needed to support our efforts
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Just a quick update today, that we recieved the reply from the IRS, meaning we are now able to take donations.</p>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>status-update</category>
+  <category>wins</category>
+  <guid>https://opensourceinpharma.com/docs/blog/posts/2022-06-24-we-are-np/index.html</guid>
+  <pubDate>Fri, 17 Sep 2021 00:00:00 GMT</pubDate>
+  <media:content url="https://opensourceinpharma.com/docs/blog/posts/2022-06-24-we-are-np/np.png" medium="image" type="image/png" height="95" width="144"/>
 </item>
 </channel>
 </rss>
