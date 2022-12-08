@@ -1,13 +1,4 @@
-- name: 501(c) status
-  description: |
-    This would be a link to our official non-profit doc 
-   
-- name: By-laws
-  description: |
-    Here is a link to our bylaws
-
-
 - name: Minutes
   description: |
-    Here we can add a link to where we keep our minutes
+    We store the minutes from our meetings on Github in a public repo [OpenSourceinPharma/minutes]](https://github.com/OpenSourceinPharma/minutes)
 
