@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "docs/faq/index.html",
+    "href": "docs/faq/index.html",
+    "title": "Frequently Asked Questions",
+    "section": "",
+    "text": "Still to be asked…"
+  },
+  {
+    "objectID": "docs/governance/index.html",
+    "href": "docs/governance/index.html",
+    "title": "Open Source in Pharma Governance",
+    "section": "",
+    "text": "Open Source in Pharma is a transperant non-profit. Use the fields below to get to know our organisation, and where you can get involved.\n\nIncoporated as a coporation in 2021 and recognised as a registered non-profit by North Coralina in 2022, Open Source in Pharma was originally formed to govern and support the R/Pharma conference. This has expanded to the R/Pharma task forces, and supporting efforts like the creation of Coursera content.\n\n\n\n\n\n\nMission statement\n\n\n\nFoster a global community centred around adoption of open source technology in Pharma by being an inclusive software foundation devoted to an open philosophy, participatory community driven development, and connecting practitioners into a cohesive community.\nOpen Source in Pharma Goals\nThe following aspirational goals support the overall mission. As a foundation we seek to:\n\nchampion the use of open-source and community participation through the development of an open education curriculum;\nremain vendor neutral;\ncontinue to foster the community through conferences, meetups and provide a collaborative platform for discussion ; be a welcoming and inclusive worldwide organization at all levels;\ncelebrate excellence, openness and service within the Pharma community.\n\n\n\n\nBoard of Directors\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Name\n        \n         \n          Directorship\n        \n         \n          Affiliation\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nName\n\n\nDirectorship\n\n\nAffiliation\n\n\n\n\n\n\nHarvey Lieberman\n\n\nPresident\n\n\nAssociate Director, Novartis\n\n\n\n\nJames Black\n\n\nSecretary, VP of Technology\n\n\nSenior Director, Roche\n\n\n\n\nMichael Blanks\n\n\nTreasurer, VP of Finance\n\n\nAssociate Director, BeiGene\n\n\n\n\nPhil Bowsher\n\n\nVice Chair, VP or Development\n\n\nDirector, Posit\n\n\n\n\nPaulo Bargo\n\n\nChair, VP of Operations\n\n\nHead R&D Data and AA, Ethicon\n\n\n\n\n\n\nNo matching items\n\n\n\n\nKey Documents\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Document\n        \n         \n          Description\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDocument\n\n\nDescription\n\n\n\n\n\n\nMinutes\n\n\nWe store the minutes from our meetings on Github in a public repo [OpenSourceinPharma/minutes]](https://github.com/OpenSourceinPharma/minutes)\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About this website",
+    "section": "",
+    "text": "Visit the Overview tab to learn more about what OS in Pharma is."
+  },
+  {
+    "objectID": "about.html#governance",
+    "href": "about.html#governance",
+    "title": "About this website",
+    "section": "Governance",
+    "text": "Governance\nVisit the governance tab to learn more about how OS in Pharma is governed, and to find the location of documents relevant to our governance."
+  },
+  {
+    "objectID": "about.html#blog",
+    "href": "about.html#blog",
+    "title": "About this website",
+    "section": "Blog",
+    "text": "Blog\nVisit the blog tab to hear updates from the OS in Pharma team."
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "Open Source License",
+    "section": "",
+    "text": "The theme of this website is based on the permisively licensed Quarto website https://github.com/quarto-dev/.\nAny additional content beyond the initial forked website theme unique to Open Source in Pharma is licenced under an MIT licence, copyrighted by Open Source in Pharma."
+  }
+]

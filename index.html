@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.233">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Open Source in Pharma is a registered non-profit aiming to support the use of open source languages in Pharma.">
+
+<title>Open Source in Pharma</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<script src="site_libs/quarto-search/autocomplete-preset-algolia.umd.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "algolia": {
+    "application-id": "ZPJB5I1QN7",
+    "search-only-api-key": "41be6c1e0a7fea4a51b107810facf577",
+    "index-name": "prod_QUARTO",
+    "analytics-events": true,
+    "show-logo": true,
+    "libDir": "site_libs"
+  },
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js"></script>
+
+
+<script type="text/javascript">
+var ALGOLIA_INSIGHTS_SRC = "https://cdn.jsdelivr.net/npm/search-insights/dist/search-insights.iife.min.js";
+!function(e,a,t,n,s,i,c){e.AlgoliaAnalyticsObject=s,e[s]=e[s]||function(){
+(e[s].queue=e[s].queue||[]).push(arguments)},i=a.createElement(t),c=a.getElementsByTagName(t)[0],
+i.async=1,i.src=n,c.parentNode.insertBefore(i,c)
+}(window,document,"script",ALGOLIA_INSIGHTS_SRC,"aa");
+</script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-plugin-algolia-insights">
+
+</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FV9Z7SDZ0M"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-FV9Z7SDZ0M', { 'anonymize_ip': true});
+</script>
+
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="index.css">
+<meta property="og:title" content="Open Source in Pharma">
+<meta property="og:description" content="Open Source in Pharma is a registered non-profit aiming to support the use of open source languages in Pharma.">
+<meta property="og:image" content="https://opensourceinpharma.com/images/hero_right.png">
+<meta property="og:site-name" content="OS in Pharma">
+<meta property="og:image:height" content="840">
+<meta property="og:image:width" content="752">
+<meta name="twitter:title" content="Open Source in Pharma">
+<meta name="twitter:description" content="Open Source in Pharma is a registered non-profit aiming to support the use of open source languages in Pharma.">
+<meta name="twitter:image" content="https://opensourceinpharma.com/images/hero_right.png">
+<meta name="twitter:image-height" content="840">
+<meta name="twitter:image-width" content="752">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/opensourceInPharma_white.png" alt="Quarto logo." class="navbar-logo">
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page">
+ <span class="menu-text">Overview</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./docs/governance/index.html">
+ <span class="menu-text">Governance</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./docs/blog/index.html">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/rinpharma"><i class="bi bi-twitter" role="img" aria-label="R/Pharma Twitter">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/openpharma"><i class="bi bi-github" role="img" aria-label="OpenPharma github">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+<!-- main -->
+
+
+
+<div class="hero-banner">
+<div class="hero-image hero-image-left">
+<p><img src="images/hero_left.png" class="img-fluid" alt="Stack of three printed articles with text, code, and graphics."></p>
+</div>
+<section id="open-source-in-pharma" class="content-block">
+<h1>Open source in Pharma</h1>
+<h3 id="open-source-in-pharma-is-a-registered-non-profit-aiming-to-support-the-use-of-open-source-languages-in-pharma.">Open Source in Pharma is a registered non-profit aiming to support the use of open source languages in Pharma.</h3>
+<p>Our mission:</p>
+<ul>
+<li>Promote the use of open source, and collaboration between companies</li>
+<li>Put on fantastic, vendor free, community events like R/Pharma</li>
+<li>Encourage seminars, dicussion and facilitate collaboration between companies</li>
+</ul>
+<div class="hero-buttons">
+<p><a href="docs/governance/" class="btn-action-primary btn-action btn btn-success btn-lg" role="button">About OS in Pharma</a> <a href="docs/guide/" id="btn-guide" class="btn-action btn btn-info btn-lg" role="button">Our blog</a></p>
+</div>
+</section>
+<div class="hero-image hero-image-right">
+<p><img src="images/hero_right.png" class="img-fluid" alt="Stack of three printed articles with text, code, and graphics."></p>
+</div>
+</div>
+<div class="hello-quarto">
+<div class="content-block">
+<section id="our-impact" class="hello-quarto-banner">
+<h1>Our impact</h1>
+<ul class="nav nav-pills" id="hello-quarto-tab" role="tablist">
+<li class="nav-item" role="presentation">
+<button class="nav-link active" id="conference-tab" data-bs-toggle="tab" data-bs-target="#conference" type="button" role="tab" aria-controls="conference" aria-selected="true">
+Conferences
+</button>
+</li>
+<li class="nav-item" role="presentation">
+<button class="nav-link" id="task-tab" data-bs-toggle="tab" data-bs-target="#task" type="button" role="tab" aria-controls="task" aria-selected="false">
+Task forces
+</button>
+</li>
+<li class="nav-item" role="presentation">
+<button class="nav-link" id="education-tab" data-bs-toggle="tab" data-bs-target="#education" type="button" role="tab" aria-controls="education" aria-selected="false">
+Education
+</button>
+</li>
+<li class="nav-item" role="presentation">
+<button class="nav-link" id="github-tab" data-bs-toggle="tab" data-bs-target="#github" type="button" role="tab" aria-controls="github" aria-selected="false">
+Github
+</button>
+</li>
+</ul>
+</section>
+<div id="hello-quarto-tabcontent" class="tab-content">
+<div id="conference" class="tab-pane fade show active" role="tabpanel" aria-labelledby="conference-tab">
+<div class="grid">
+<section id="rpharma" class="g-col-lg-6 g-col-12">
+<h2>R/Pharma</h2>
+<p>R/Pharma conference is a relatively small, scientifically &amp; industry oriented, collegial event focused on the use of R in the development of pharmaceuticals.</p>
+<p>The first conference took place in 2018, as an in-person event hosted by Harvard. During Covid-19, the conference moved to be online, and grew in participation to more than 1,500 data scientists from the pharma world with a passion for using R.</p>
+<p>The conference is free to attend, and all hosting costs are met by contributions by Pharma companies.</p>
+<p><a href="https://rinpharma.com/">Conference website</a></p>
+</section>
+<div class="g-col-lg-6 g-col-12">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/rinpharma-square.png" class="img-fluid figure-img" data-layout-valign="center" alt="R/Pharma on pill background."></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="task" class="tab-pane fade" role="tabpanel" aria-labelledby="task-tab">
+<div class="grid">
+<section id="task-forces" class="g-col-lg-12 g-col-12">
+<h2>Task forces</h2>
+<p>Two task forces have been started by Open Source in Pharma to support the R/Pharma conference community.</p>
+<ul>
+<li><a href="https://learn.rinpharma.com/shiny4submissions.html">Shiny for submissions</a></li>
+<li><a href="https://learn.rinpharma.com/pharmaradmin.html">Pharma R admin</a></li>
+</ul>
+</section>
+</div>
+</div>
+<div id="education" class="tab-pane fade" role="tabpanel" aria-labelledby="education-tab">
+<div class="grid">
+<div class="g-col-lg-6 g-col-12">
+<h2 id="certificates">Certificates</h2>
+<p>OS in Pharma supports the release of <em>Credly</em> certifications to individuals that attend a conference workshop.</p>
+<h2 id="coursera">Coursera</h2>
+<p>We have supported Roche / Genentech release the first online course specifically targeted at bridging the world of data science, with the world of data science for regulatory reporting.</p>
+<p>This has led to the Genentech course on Coursera called ‘Making data science work for clinical reporting’.</p>
+</div>
+<div class="g-col-lg-6 g-col-12">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/coursera.png" class="img-fluid figure-img" alt="Coursera."></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="github" class="tab-pane fade" role="tabpanel" aria-labelledby="github-tab">
+<div class="grid">
+<section id="github-org" class="g-col-lg-12 g-col-12">
+<h2>Github org</h2>
+<p>Open source in Pharma provides governance over three Github Organisations.</p>
+<ul>
+<li><a href="https://github.com/openpharma">github.com/openpharma</a> - A generic home for projects that are looking for a Github organisation that is not affaliated to a specific company, and not tied to a specific organisation like PhUSE, ROpenSci or the R Consortium.</li>
+<li><a href="https://github.com/rinpharma">github.com/rinpharma</a> - For material relating to the R/Pharma conference, including the conference website and presentation/workshop archive.</li>
+<li><a href="https://github.com/opensourceinpharma">github.com/opensourceinpharma</a> - For material relating to the OS in Pharma non-profit, including this website.</li>
+</ul>
+</section>
+</div>
+</div>
+</div>
+<div class="grid">
+
+</div>
+</div>
+</div>
+<div class="get-started alt-background">
+<section id="do-you-want-to-get-connected-and-involved" class="content-block">
+<h3>Do you want to get connected and involved?</h3>
+<p><a href="https://forms.gle/8ftqG6pwJN22prA9A" class="btn-action-primary btn-action btn btn-success btn-lg" role="button">Connect with us</a></p>
+</section>
+</div>
+
+
+
+
+<script type="text/javascript">
+
+// replace cmd keyboard shortcut w/ control on non-Mac platforms
+const kPlatformMac = typeof navigator !== 'undefined' ? /Mac/.test(navigator.platform) : false;
+if (!kPlatformMac) {
+   var kbds = document.querySelectorAll("kbd")
+   kbds.forEach(function(kbd) {
+      kbd.innerHTML = kbd.innerHTML.replace(/⌘/g, '⌃');
+   });
+}
+
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Proud organizer of <a href="https://www.rinpharma.com"><img src="./images/logo-rinpharma.png" class="img-fluid" alt="OS in Pharma logo" width="65"></a></div>   
+      <div class="nav-footer-center">
+        <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./about.html">About</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./docs/faq/index.html">FAQ</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./license.html">License</a>
+  </li>  
+</ul>
+      </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/rinpharma">
+      <i class="bi bi-twitter" role="img" aria-label="R/Pharma Twitter">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/openpharma">
+      <i class="bi bi-github" role="img" aria-label="OpenPharma github">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>
