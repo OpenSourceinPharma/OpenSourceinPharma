@@ -18,7 +18,7 @@ image: /images/hero_right.png
 
 ::: {.content-block}
 
-# Open source in Pharma
+# Open Source in Pharma
 
 ### Open Source in Pharma is a registered non-profit aiming to support the use of open source languages in Pharma.
 
