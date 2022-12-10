@@ -22,7 +22,7 @@ listing:
 
 {{< include _listing-preamble.qmd >}}
 
-Incoporated as a coporation in 2021 and 
+Incoporated as a corporation in 2021 and 
 recognised as a registered non-profit by North Coralina in 2022, 
 `Open Source in Pharma` was originally 
 formed to govern and support the R/Pharma conference. This has expanded to the 
@@ -38,11 +38,11 @@ Foster a global community centred around adoption of open source technology in P
 
 The following aspirational goals support the overall mission. As a foundation we seek to:
 
-* champion the use of open-source and community participation through the development of an open education curriculum;
-* remain vendor neutral;
-* continue to foster the community through conferences, meetups and provide a collaborative platform for discussion ;
-be a welcoming and inclusive worldwide organization at all levels;
-* celebrate excellence, openness and service within the Pharma community.
+* champion the use of open-source and community participation through the development of an open education curriculum
+* remain vendor neutral
+* continue to foster the community through conferences, meetups and provide a collaborative platform for discussion
+* be a welcoming and inclusive worldwide organization at all levels
+* celebrate excellence, openness and service in an open source context within the Pharma community
 
 :::
 
