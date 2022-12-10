@@ -1,4 +1,7 @@
-- name: Minutes
+- name: Meeting minutes
   description: |
     We store the minutes from our meetings on Github in a public repo [OpenSourceinPharma/minutes](https://github.com/OpenSourceinPharma/minutes)
+- name: Policy documents
+  description: |
+    We store our governance policies in a public repo [OpenSourceinPharma/policies](https://github.com/OpenSourceinPharma/policies)
 
