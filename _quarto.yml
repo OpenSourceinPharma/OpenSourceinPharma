@@ -10,20 +10,13 @@ website:
   title: "OS in Pharma"
   image: "images/opensourceInPharma_transparent.png"
   favicon: "favicon.png"
-  google-analytics: "G-FV9Z7SDZ0M"
+  google-analytics: "G-SRBLBCD4NS"
   open-graph: true
   twitter-card: true
   site-url: https://opensourceinpharma.com
-  repo-url: https://github.com/OpenSourceinPharma/osinpharma-site
+  repo-url: https://github.com/OpenSourceinPharma/OpenSourceinPharma
   repo-actions: [edit, issue]
   page-navigation: true
-  search:
-    algolia:
-      index-name: prod_QUARTO
-      application-id: ZPJB5I1QN7
-      search-only-api-key: 41be6c1e0a7fea4a51b107810facf577
-      analytics-events: true
-      show-logo: true
   page-footer:
     left: |
       Proud organizer of 
@@ -37,14 +30,14 @@ website:
         href: license.qmd
     right:
       - icon: twitter
-        href: https://twitter.com/rinpharma
+        href: https://twitter.com/OpenSourceinPharma
         aria-label: R/Pharma Twitter
       - icon: github
         href: https://github.com/openpharma
         aria-label: OpenPharma github
 #      - icon: rss
-#        href: https://quarto.org/docs/blog/index.xml
-#        aria-label: Quarto Blog RSS        
+#        href: 
+#        aria-label:      
   navbar:
     background: light
     logo: images/opensourceInPharma_white.png
@@ -54,27 +47,10 @@ website:
     left:
       - text: "Overview"
         href: index.qmd
-#      - text: "Guide"
-#        href: docs/guide/index.qmd
       - text: Governance
         href: docs/governance/index.qmd
-#      - text: "Reference"
-#        href: docs/reference/index.qmd
-#      - text: "Gallery"
-#        href: docs/gallery/index.qmd
       - text: "Blog"
         href: docs/blog/index.qmd
-#      - text: "Help"
-#        menu:
-#          - text: "Report a Bug"
-#            icon: "bug"
-#            href: "https://github.com/quarto-dev/quarto-cli/issues"
-#          - text: "Ask a Question"
-#            icon: "chat-right-text"
-#            href: "https://github.com/quarto-dev/quarto-cli/discussions"
-#          - text: "FAQ"
-#            icon: "question-circle"
-#            href: docs/faq/index.qmd
     right:
       - icon: twitter
         href: https://twitter.com/rinpharma
@@ -83,8 +59,8 @@ website:
         href: https://github.com/openpharma
         aria-label: OpenPharma github
 #      - icon: rss
-#        href: https://quarto.org/docs/blog/index.xml
-#        aria-label: Quarto Blog RSS        
+#        href: 
+#        aria-label:         
 
 format:
   html:
