@@ -30,7 +30,7 @@ Our mission:
 
 ::: {.hero-buttons}
 [About OS in Pharma](docs/governance/){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
-[Our blog](docs/guide/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
+[Our blog](docs/blog/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
 ::: 
 
 :::
