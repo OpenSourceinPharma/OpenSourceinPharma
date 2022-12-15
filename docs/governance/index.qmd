@@ -23,7 +23,7 @@ listing:
 {{< include _listing-preamble.qmd >}}
 
 Incoporated as a corporation in 2021 and 
-recognised as a registered non-profit by North Coralina in 2022, 
+recognised as a registered non-profit by North Carolina in 2022 ([link](https://opengovus.com/north-carolina-corporation/2271064)), 
 `Open Source in Pharma` was originally 
 formed to govern and support the R/Pharma conference. This has expanded to the 
 R/Pharma task forces, and supporting efforts like the creation of Coursera 
