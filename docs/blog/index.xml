@@ -6,75 +6,39 @@
       version="2.0">
 <channel>
 <title>OS in Pharma</title>
-<link>https://opensourceinpharma.com/docs/blog/index.html</link>
+<link>https://opensourceinpharma.com/docs/blog/</link>
 <atom:link href="https://opensourceinpharma.com/docs/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <image>
 <url>https://opensourceinpharma.com/images/opensourceInPharma_transparent.png</url>
 <title>OS in Pharma</title>
-<link>https://opensourceinpharma.com/docs/blog/index.html</link>
+<link>https://opensourceinpharma.com/docs/blog/</link>
 <height>42</height>
 <width>144</width>
 </image>
-<generator>quarto-1.2.269</generator>
+<generator>quarto-1.5.57</generator>
 <lastBuildDate>Fri, 17 Sep 2021 00:00:00 GMT</lastBuildDate>
-<item>
-  <title>We exist!</title>
-  <dc:creator>Michael Blanks</dc:creator>
-  <link>https://opensourceinpharma.com/docs/blog/posts/2021-09-17-we-exist/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://opensourceinpharma.com/docs/blog/posts/2021-09-17-we-exist/we-exist.png" class="preview-image img-fluid figure-img" alt="The header from our articles of incoporation"></p>
-</figure>
-</div>
-<div class="callout-note callout callout-style-default no-icon callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-It’s day 1 for OS in Pharma!
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Just a quick update today, to note we have filed our articles of incoporation with the Secretary of State of the State of North Carolina!</p>
-</div>
-</div>
-
-
-
- ]]></description>
-  <category>status-update</category>
-  <category>wins</category>
-  <guid>https://opensourceinpharma.com/docs/blog/posts/2021-09-17-we-exist/index.html</guid>
-  <pubDate>Fri, 17 Sep 2021 00:00:00 GMT</pubDate>
-  <media:content url="https://opensourceinpharma.com/docs/blog/posts/2021-09-17-we-exist/we-exist.png" medium="image" type="image/png" height="93" width="144"/>
-</item>
 <item>
   <title>We are officially NP</title>
   <dc:creator>Michael Blanks</dc:creator>
-  <link>https://opensourceinpharma.com/docs/blog/posts/2022-06-24-we-are-np/index.html</link>
+  <link>https://opensourceinpharma.com/docs/blog/posts/2022-06-24-we-are-np/</link>
   <description><![CDATA[ 
+
 
 
 
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://opensourceinpharma.com/docs/blog/posts/2022-06-24-we-are-np/np.png" class="preview-image img-fluid figure-img" alt="The header from our articles of incoporation"></p>
+<p><img src="https://opensourceinpharma.com/docs/blog/posts/2022-06-24-we-are-np/np.png" class="preview-image img-fluid quarto-figure quarto-figure-center figure-img" alt="The header from our articles of incoporation"></p>
 </figure>
 </div>
-<div class="callout-note callout callout-style-default no-icon callout-captioned">
+<div class="callout callout-style-default callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 We are now a non-profit with the tools needed to support our efforts
 </div>
 </div>
@@ -88,9 +52,47 @@ We are now a non-profit with the tools needed to support our efforts
  ]]></description>
   <category>status-update</category>
   <category>wins</category>
-  <guid>https://opensourceinpharma.com/docs/blog/posts/2022-06-24-we-are-np/index.html</guid>
+  <guid>https://opensourceinpharma.com/docs/blog/posts/2022-06-24-we-are-np/</guid>
   <pubDate>Fri, 17 Sep 2021 00:00:00 GMT</pubDate>
   <media:content url="https://opensourceinpharma.com/docs/blog/posts/2022-06-24-we-are-np/np.png" medium="image" type="image/png" height="95" width="144"/>
+</item>
+<item>
+  <title>We exist!</title>
+  <dc:creator>Michael Blanks</dc:creator>
+  <link>https://opensourceinpharma.com/docs/blog/posts/2021-09-17-we-exist/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://opensourceinpharma.com/docs/blog/posts/2021-09-17-we-exist/we-exist.png" class="preview-image img-fluid quarto-figure quarto-figure-center figure-img" alt="The header from our articles of incoporation"></p>
+</figure>
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+It’s day 1 for OS in Pharma!
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Just a quick update today, to note we have filed our articles of incoporation with the Secretary of State of the State of North Carolina!</p>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>status-update</category>
+  <category>wins</category>
+  <guid>https://opensourceinpharma.com/docs/blog/posts/2021-09-17-we-exist/</guid>
+  <pubDate>Fri, 17 Sep 2021 00:00:00 GMT</pubDate>
+  <media:content url="https://opensourceinpharma.com/docs/blog/posts/2021-09-17-we-exist/we-exist.png" medium="image" type="image/png" height="93" width="144"/>
 </item>
 </channel>
 </rss>

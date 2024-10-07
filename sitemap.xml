@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://opensourceinpharma.com/about.html</loc>
-    <lastmod>2022-12-11T07:55:48.405Z</lastmod>
-  </url>
-  <url>
-    <loc>https://opensourceinpharma.com/license.html</loc>
-    <lastmod>2022-12-11T07:55:49.065Z</lastmod>
-  </url>
-  <url>
-    <loc>https://opensourceinpharma.com/index.html</loc>
-    <lastmod>2022-12-11T07:55:49.497Z</lastmod>
-  </url>
-  <url>
-    <loc>https://opensourceinpharma.com/docs/blog/index.html</loc>
-    <lastmod>2022-12-11T07:55:50.281Z</lastmod>
+    <loc>https://opensourceinpharma.com/docs/faq/index.html</loc>
+    <lastmod>2024-10-07T07:40:31.775Z</lastmod>
   </url>
   <url>
     <loc>https://opensourceinpharma.com/docs/blog/posts/2021-09-17-we-exist/index.html</loc>
-    <lastmod>2022-12-11T07:55:51.189Z</lastmod>
+    <lastmod>2024-10-07T07:40:31.773Z</lastmod>
+  </url>
+  <url>
+    <loc>https://opensourceinpharma.com/docs/blog/index.html</loc>
+    <lastmod>2024-10-07T07:40:31.772Z</lastmod>
+  </url>
+  <url>
+    <loc>https://opensourceinpharma.com/about.html</loc>
+    <lastmod>2024-10-07T07:40:31.772Z</lastmod>
+  </url>
+  <url>
+    <loc>https://opensourceinpharma.com/index.html</loc>
+    <lastmod>2024-10-07T07:40:31.783Z</lastmod>
+  </url>
+  <url>
+    <loc>https://opensourceinpharma.com/license.html</loc>
+    <lastmod>2024-10-07T07:40:31.783Z</lastmod>
   </url>
   <url>
     <loc>https://opensourceinpharma.com/docs/blog/posts/2022-06-24-we-are-np/index.html</loc>
-    <lastmod>2022-12-11T07:55:51.977Z</lastmod>
-  </url>
-  <url>
-    <loc>https://opensourceinpharma.com/docs/faq/index.html</loc>
-    <lastmod>2022-12-11T07:55:52.313Z</lastmod>
+    <lastmod>2024-10-07T07:40:31.773Z</lastmod>
   </url>
   <url>
     <loc>https://opensourceinpharma.com/docs/governance/index.html</loc>
-    <lastmod>2022-12-11T07:55:52.741Z</lastmod>
+    <lastmod>2024-10-07T07:40:31.776Z</lastmod>
   </url>
 </urlset>
